@@ -14,7 +14,7 @@ my_list1.insert(0,10)   # 0번째 인덱스에서 원하는 값 input
 print(type(my_list1))
 print(my_list1)
 my_list1[2] = 100
-print(my_list1)
+print(my_list1[0:3])
 #list는 중복 허용!
 
 #set - 중복 허용 X, 순서 유지 X
@@ -40,3 +40,13 @@ def swap(a, b):
 a, b = swap(10, 20)
 print(a)
 print(b)
+
+
+birth_day = "2021/05/08"
+birth_list = birth_day.split("/")
+print(birth_list)
+print('2021' in birth_list)
+print('2021' not in birth_list)
+if '2021' not in birth_list:
+    print('not found')
+

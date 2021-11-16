@@ -1,6 +1,7 @@
-===
+"""
 파이썬 모듈안에는 함수와 클래스를 선언할 수 있다.
-===
+"""
+
 
 def add(n1, n2):
     #pass
@@ -31,4 +32,8 @@ class User:
 #객체 생성
 user = User("파이썬")
 print(user)
+
+#문자열 타입 list 선언
+cat_list = list('cat')
+print(cat_list)
 
